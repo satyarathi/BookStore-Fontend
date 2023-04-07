@@ -1,0 +1,106 @@
+.login-form {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #6f6c6c 0% 0% no-repeat padding-box;
+}
+
+.main-container1 {
+  height: 420px;
+  width: 700px;
+  background: #6f6c6c 0% 0% no-repeat padding-box;
+  border-radius: 21px;
+  display: flex;
+}
+
+.left-box1 {
+  margin: 20px 0px 20px 20px;
+  width: 45%;
+  border-radius: 20px 0px 0px 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-box-image1 {
+  width: 200px;
+  height: 200px;
+  border-radius: 120px;
+}
+
+.left-box-text1 {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.right-box1 {
+  border-radius: 10px;
+  width: 55%;
+  height: 65;
+  box-shadow: rgb(79, 79, 79) 1px 1px 10px 1px;
+  background-color: #fff;
+}
+
+.pageSwitch1 {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  position: relative;
+  top: 25px;
+}
+
+.textBox1 {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 60px;
+}
+
+.textEmailId1 {
+  margin-top: -20px;
+  width: 252px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  top: 50px;
+}
+
+.textPassword1 {
+  width: 252px;
+  height: 75px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  top: 40px;
+}
+
+.loginButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 252px;
+  position: relative;
+  top: 60px;
+}
+
+.extra-button {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 252px;
+  position: relative;
+  top: 10px;
+}
+
+.or {
+  margin-top: 90px;
+  margin-right: 60px;
+}

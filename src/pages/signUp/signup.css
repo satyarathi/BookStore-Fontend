@@ -1,0 +1,113 @@
+.signup-form {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #6f6c6c 0% 0% no-repeat padding-box;
+}
+
+.main-container {
+  height: 420px;
+  width: 700px;
+  background: #6f6c6c 0% 0% no-repeat padding-box;
+  border-radius: 21px;
+  display: flex;
+}
+
+.left-box {
+  margin: 20px 0px 20px 20px;
+  width: 45%;
+  border-radius: 20px 0px 0px 20px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.left-box-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 120px;
+}
+
+.left-box-text {
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.right-box {
+  border-radius: 10px;
+  width: 55%;
+  height: 65;
+  box-shadow: rgb(79, 79, 79) 1px 1px 10px 1px;
+  background-color: #fff;
+}
+
+.pageSwitch {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+  position: relative;
+  top: 25px;
+}
+
+.textBox {
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 60px;
+}
+
+.textFirstName {
+  margin-top: -30px;
+  width: 252px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  top: 50px;
+}
+
+.textEmailId {
+  width: 252px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  top: 30px;
+}
+
+.textPassword {
+  width: 252px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  top: 20px;
+}
+
+.textLastName {
+  width: 252px;
+  height: 70px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+
+  position: relative;
+  top: 40px;
+}
+
+.signUpButton {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 252px;
+  position: relative;
+  top: 20px;
+}
